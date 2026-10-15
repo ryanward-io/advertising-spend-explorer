@@ -30,7 +30,7 @@ Originally written in 2021 as a Streamlit Community Cloud app. This version was 
 
 ## Notes and limitations
 
-- It is a teaching example, not a media mix model: the data has no time dimension, so there are no carryover or diminishing-returns effects.
+- It is a teaching example on a small cross-sectional dataset (200 markets, no time dimension), so it says nothing about effects over time, such as carryover from past advertising.
 - Support vector regression and k-nearest neighbours are used without feature scaling, which is part of why they perform worse here. That is deliberate for the comparison but worth knowing.
 
 ## Data and licence
